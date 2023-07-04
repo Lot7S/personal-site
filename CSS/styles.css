@@ -1,0 +1,136 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+}
+.top-container{
+  padding-top: 100px;
+  position: relative;
+  background-color: #EAF6F6
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Blaka', cursive;
+  /* note that 100% = 16px = 1em thats how we did the maths to get equivalent of 90px in percent or 'em' so that font-size of h1 can be dynamic. rem is rather used than just em cos it makes the inherited font-size to be relative to its parent */
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+h3{
+  font-family: 'Cormorant Garamond', serif;
+  color: #11999E;
+}
+.dev1{
+  text-decoration: underline;
+}
+.cloud1{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.cloud2{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.art-img{
+  width: 100px; height: 100px;
+  float: left;
+  margin-right: 30px;
+}
+.philo-img{
+  width: 100px; height: 100px;
+  float: right;
+  margin-left: 30px;
+}
+.pfp{
+  width: 100px; height: 100px;
+  margin-top: 19.920px;
+  border-radius: 100%;
+}
+.sea{
+  text-decoration: none
+}
+.sea:hover{
+  color: skyblue;
+}
+.footer-link{
+  color: #11999E;
+  margin: 0 30px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+hr{
+  width: 5%;
+  border-top-style: dotted;
+  border-width: 7px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: grey;
+}
+.skill-row{
+  width: 50%;
+  /* this way i did the margin is a short hand method. instead of doing the whole clockwise movement from top to the left, you jst write two similar units where the 6.25rem represents top and bottom and auto represents left and write */
+  margin: 100px auto;
+  text-align: left;
+}
+.middle-container{
+  margin-bottom: 50px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding:20px 0 10px;
+}
+.end{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+p{
+ line-height: 2;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.profile{
+  padding-bottom: 50px;
+}
+.contact-message{
+  width: 30%;
+  margin: 50px auto;
+}
+.btn{
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Hind Madurai', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
